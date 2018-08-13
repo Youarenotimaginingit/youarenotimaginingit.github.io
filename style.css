@@ -1,0 +1,144 @@
+hhtml {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+  h  color: white;
+    background-color: black;
+}
+ul { 
+/*nav bar*/lul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: purple;
+}
+
+/*/end nav bar style*/ 
+    background-color: #38a;
+}
+#myButtons {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+}
+.buttonforhomepage {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 25px 95px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 100px;
+    cursor: pointer;
+}
+.buttonforhomepage:hover, .buttonforhomepage:focus {
+    background-color: #2980B9;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+splay:none
+.homepagebutton-whatarethey {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgcba(0,0,0,0.2);
+    z-index: 1;
+}px
+
+
+{
+or: #000000;
+    border: 1px solid black; 
+    color: white; 
+    padding: 15px 30px; 
+    cursor: pointer; 
+    width: 100%; 
+    display: block; 
+}
+
+img {
+    border-radius: 50%;
+}
+
+
+

@@ -1,0 +1,105 @@
+{
+  "projectId": "1Dxb7kFoMQO1Et3xNLvECJtJ9_IWX_5R-",
+  "htmlFiles": [
+    {
+      "fileId": "1O1s7hRBsAxAF5WPlEsP4mU3YEdlIsQCs",
+      "contentType": "text/html",
+      "name": "index.html",
+      "path": "1Dxb7kFoMQO1Et3xNLvECJtJ9_IWX_5R-"
+    },
+    {
+      "fileId": "1jk05Kcd_yC7wHGmB3TIZCYrdyCGqFVGG",
+      "contentType": "text/html",
+      "name": "contactus.html",
+      "path": "1Dxb7kFoMQO1Et3xNLvECJtJ9_IWX_5R-",
+      "description": "This HTML file has been created with Editey"
+    },
+    {
+      "fileId": "1glRUenWlgLM_tvO6nMOUA7twq5_sm45r",
+      "contentType": "text/html",
+      "name": "stories.html",
+      "path": "1Dxb7kFoMQO1Et3xNLvECJtJ9_IWX_5R-",
+      "description": "This HTML file has been created with Editey"
+    },
+    {
+      "fileId": "1OZAVid3eHWXdpZh7LTCVtnXHkU30EOAX",
+      "contentType": "text/html",
+      "name": "quiz.html",
+      "path": "1Dxb7kFoMQO1Et3xNLvECJtJ9_IWX_5R-",
+      "description": "This HTML file has been created with Editey"
+    },
+    {
+      "fileId": "1rp9C3LysMusLhpYwi0I8evVQ83--BjFa",
+      "contentType": "text/html",
+      "name": "faq.html",
+      "path": "1Dxb7kFoMQO1Et3xNLvECJtJ9_IWX_5R-",
+      "description": "This HTML file has been created with Editey"
+    },
+    {
+      "fileId": "11mazoSktyE3n5_bmSWM321Lem3B5LVYo",
+      "contentType": "text/html",
+      "name": "resources.html",
+      "path": "1Dxb7kFoMQO1Et3xNLvECJtJ9_IWX_5R-",
+      "description": "This HTML file has been created with Editey"
+    },
+    {
+      "fileId": "1nTb1bg30QvcYTWCyz930muB7HveSnz79",
+      "contentType": "text/html",
+      "name": "game.html",
+      "path": "1Dxb7kFoMQO1Et3xNLvECJtJ9_IWX_5R-",
+      "description": "This HTML file has been created with Editey"
+    },
+    {
+      "fileId": "1cVLDNTJxfWn4eVifdyvDkrtug7PNiR0v",
+      "contentType": "text/html",
+      "name": "registerorlogin.html",
+      "path": "1Dxb7kFoMQO1Et3xNLvECJtJ9_IWX_5R-",
+      "description": "This HTML file has been created with Editey"
+    },
+    {
+      "fileId": "1gvhlPAxdAETABB5ca8IgTjzmieSlQZZW",
+      "contentType": "text/html",
+      "name": "extrasignup.html",
+      "path": "1Dxb7kFoMQO1Et3xNLvECJtJ9_IWX_5R-",
+      "description": "This HTML file has been created with Editey"
+    },
+    {
+      "fileId": "18PjYFtS68JScba6Yafu4U5E1EMPaOeCW",
+      "contentType": "text/html",
+      "name": "extralogin.html",
+      "path": "1Dxb7kFoMQO1Et3xNLvECJtJ9_IWX_5R-",
+      "description": "This HTML file has been created with Editey"
+    }
+  ],
+  "cssFiles": [
+    {
+      "fileId": "18ShOu4Lc1nN70vEmodi_J4iTavybtjL9",
+      "contentType": "text/css",
+      "name": "homepagejustfortesting.css",
+      "path": "1Dxb7kFoMQO1Et3xNLvECJtJ9_IWX_5R-",
+      "description": "This CSS file has been created with Editey"
+    }
+  ],
+  "javascriptFiles": [
+    {
+      "fileId": "1zlySuTQ9_SK7pvfBS1h5Xr3m7veJkQ9p",
+      "contentType": "text/javascript",
+      "name": "code.js",
+      "path": "1Dxb7kFoMQO1Et3xNLvECJtJ9_IWX_5R-"
+    },
+    {
+      "fileId": "11wNlk5mkBztkNVVA2RqsTa962XPxHSge",
+      "contentType": "text/javascript",
+      "name": "homepage.js",
+      "path": "1Dxb7kFoMQO1Et3xNLvECJtJ9_IWX_5R-",
+      "description": "This JAVASCRIPT file has been created with Editey"
+    },
+    {
+      "fileId": "1SVfDZ5OPD3ZdapA8DuTuY2lkewZm_ahI",
+      "contentType": "text/javascript",
+      "name": "quiz.js",
+      "path": "1Dxb7kFoMQO1Et3xNLvECJtJ9_IWX_5R-",
+      "description": "This JAVASCRIPT file has been created with Editey"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="homepagejustfortesting.css" rel="stylesheet" type="text/css">
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <script>src="code.js" type="text/javascript" charset="utf-8"></script>        
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Abril+FatfaceEsteban|Galada|Katibeh|Rhodium+Libre|Suranna|Domine|Gravitas+One|Merienda|Poppins|Rubik|Shrikhand|Source+Sans+Pro|Vidaloka" rel="stylesheet">
+       
+<style>
+
+
+.accordion {
+    background-color: #fff4;
+    color:  #fff44;
+    cursor: pointer;
+    padding: 18px;
+    width: 80%;
+    border: none;
+    text-align: center;
+    outline: black;
+    font-size: 20px;
+    font-family: 'Domine', serif;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #fff44 
+}
+
+.panel {
+    line-height: 150%;
+    padding: 0 37px;
+    display: none;
+    background-color: wfff44hite;
+    overflow: hidden;
+    font-size:25px;
+}
+p {
+    margin-left: 95px;
+    margin-right:95px;
+    font-size:20px;
+}
+</style>
+
+    </head>
+    <body>
+     <ul>
+          <li><a href="microaggressions.html">Home</a></li>
+          <li><a href="stories.html">Stories</a></li>
+          <li><a href="game.html">Game</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a class = "active" href="faq.html">FAQs</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="registerorlogin.html">Register/Login</a></li>
+    </ul>   
+    
+<h1> Frequently Asked Questions </h1>
+
+<center><button class="accordion">How do I know if I've experienced a microaggression? Am I just being sensitive?</button>
+<div class="panel">
+  <p><strong> A microaggression is the everyday verbal, nonverbal, and/or environmental slight, snub, or insult. It can be intentional or unintentional, and communicates a hostile, derogatory, or negative message that targets people from marginalized groups. If you have been on the recieving end of
+  this type of action, then there is a high chance you have experienced a microaggression. Microaggressions are often ignored and/or go unnoticed, with individuals who believe they have experienced a microaggression dismissing the idea and/or finding their opionions disregarded. Despite this, microaggressions are
+  not a result of excessive sensitivity; they should be identified and confronted, or at the very least reflected on. Take our quiz to check your knowledge!</strong></p>
+</div></center> 
+
+<center><button class="accordion">Why should you care about microaggressions?</button>
+<div class="panel">
+  <p><strong>You should care about microaggressions because they are both symptoms and causes of larger structural problems. The impact of someone's words and actions matter more than their intent. It is too easy to hurt and insult others without exercising vigilance in interacting with those whose lived experiences are different than our own.</strong></p>
+</div></center> 
+
+<center><button class="accordion">Should I respond to a microaggression?</button>
+<div class="panel">
+  <p><strong>Depends on the situation! If you feel safe enough to speak up in your environment (e.g., you won’t be at risk of losing your job) and don't mind educating the individual who committed the microaggression, then go it! If the microaggression is deliberate and you feel at unsafe, then we recommend that you should not respond.
+</strong><br><em>* Explaining microaggressions and why they are harmful can be exhausting! Be mindful that your mental health is important and you don’t always have to explain yourself!</em>
+</p>
+</div></center> 
+
+<center><button class="accordion">How should I respond to a microaggression?</button>
+<div class="panel">
+ <p><strong>Stay calm and take your time thinking of a response. Take note of what the person said or did rather than just the person. Evaluate the values of the microaggression before strategizing your next step. Build your approach towards microaggressions. </strong></p>
+</div></center>
+
+<center><button class="accordion">What are the most common microaggressions?</button>
+<div class="panel">
+  <p><strong>Microaggressions come in three different types:<br>1. Micro-assault: explicit racial or derogatory actions that are intended to hurt.<br>
+                2. Micro-insult: an unconscious communication that demeans a person from a minority group.<br>
+                3. Micro-invalidation: minimizing or disregarding the thoughts, feelings or experiences of a marginalized individual.</strong></p>
+</div></center>
+
+<center><button class="accordion">Who can experience microaggressions?</button>
+<div class="panel">
+  <p><strong>Mainly women, people of the LGBTQ community, and racial or religous minorities experience microaggressions. They can also be weight-based, class-based, or directed towards those with disabilities.</strong></p>
+</div>
+
+
+<center><button class="accordion">What should I do if I commit a microaggression?</button>
+<div class="panel">
+  <p><strong>Apologize to the individual and educate yourself on microaggressions to avoid repeating the same mistake. Try not to make the situation about yourself by using language like "That made me feel SO bad." Instead you should acknowledge that the comment was offensive and uncalled for, perhaps talk on what formed this opinion, and then
+  later reflect on it, and engage in activities that help spread awareness toward similar situations.</strong></p>
+</div>
+
+<center><button class="accordion">Why is this website an authority on microaggressions?</button>
+<div class="panel">
+  <p><strong>It's not! This website is a platform created to educate people on microaggressions, inform on the misconceptions surrounding
+  them, and allow people to share their experiences.</strong></p>
+</div></center> 
+
+<p><strong>If you have any unanswered questions about microaggressions, visit the resources tab or contact us directly.</strong></p>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+</body>
+</html>

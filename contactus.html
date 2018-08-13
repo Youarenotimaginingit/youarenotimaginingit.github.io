@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link href="homepagejustfortesting.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Domine|Gravitas+One|Merienda|Poppins|Rubik|Shrikhand|Source+Sans+Pro|Vidaloka" rel="stylesheet">
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #311151;
+    padding: 20px;
+    color:white
+}
+</style>         <title>Contact</title>
+ <script src="code.js" type="text/javascript" charset="utf-8"></script>        
+        <link href="style.css" rel="stylesheet" type="text/css">       
+</head>
+<body>
+        <ul>
+          <li><a href="microagressions.html">Home</a></li>
+          <li><a href="stories.html">Stories</a></li>
+          <li><a href="game.html">Game</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+          <li><a class="active" href="contactus.html">Contact Us</a></li>
+          <li><a href="resources.html">Resources</a></li>
+            <li><a href="registerorlogin.html">Register/Login</a></li>
+</ul>
+        <center><h1>Contact Us!</h1></center>
+        <center><p>Share Your Story!</p></center>
+        
+        <center><p>You can also email us. Email: <em>youarenotimaginingit@gmail.com</em></p> 
+        <p>In order to submit, you should fill out contact info below (name and image are optional for those who choose to be anonymous). Don't forget to press submit!</p>    
+        <p>You can also use the contact form to ask a question or send us a comment. </p>
+        </center>
+<style>
+    p {color:#5a3972;
+    font-family: 'Domine', serif;
+    font-size: 20px;
+}
+</style>        
+<h3>Contact Form</h3>
+
+<div class="container">
+  <form action="/action_page.php">
+      <br>
+    <label for="name">Name (optional)</label>
+    <input type="text" id="name" name="name" placeholder="Your name...">
+
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email...">
+
+    <label for="type">Submission Type</label>
+    <select id="type" name="type">
+      <option value="story">Personal Story</option>
+      <option value="question">Question</option>
+      <option value="other">Other</option>
+    </select>
+    
+  <form action="upload.php" method="post" enctype="multipart/form-data">
+    Select image to upload (optional):
+    <input type="file" name="fileToUpload" id="fileToUpload">
+    <input type="submit" value="Upload Image" name="submit">
+    </form>
+    <br>
+    <label for="Message">Message</label>
+    <textarea id="subject" name="subject" placeholder="Write something..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+  </form>
+</div>
+
+</body>
+</html>
